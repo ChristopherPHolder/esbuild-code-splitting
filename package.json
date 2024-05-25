@@ -1,8 +1,14 @@
 {
   "name": "esbuild-code-splitting",
   "version": "0.0.0",
+  "type": "module",
   "description": "Esbuild Code Splitting Demos",
-  "scripts": {},
+  "scripts": {
+    "build:over-splitting": "esbuild examples/over-splitting/app.ts --splitting --bundle --platform=node --outdir=dist/over-splitting --format=esm",
+    "build:common-splitting": "esbuild examples/common-splitting/app.ts --splitting --bundle --platform=node --outdir=dist/common-splitting --format=esm",
+    "execute:over-splitting": "node dist/over-splitting/app.js",
+    "execute:common-splitting": "node dist/common-splitting/app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChristopherPHolder/esbuild-code-splitting.git"
