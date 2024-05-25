@@ -1,0 +1,20 @@
+{
+  "name": "esbuild-code-splitting",
+  "version": "0.0.0",
+  "description": "Esbuild Code Splitting Demos",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherPHolder/esbuild-code-splitting.git"
+  },
+  "keywords": [
+    "esbuild",
+    "code-splitting"
+  ],
+  "author": "ChristopherPHolder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristopherPHolder/esbuild-code-splitting/issues"
+  },
+  "homepage": "https://github.com/ChristopherPHolder/esbuild-code-splitting#readme"
+}
